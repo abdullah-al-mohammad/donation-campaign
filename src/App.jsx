@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <h1>Donation Campaign</h1>
+      <h1>I Grow By Helping People In Need</h1>
       
     </>
   )

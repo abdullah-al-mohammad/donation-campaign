@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import './Header.css'
 
 
 const Header = () => {
@@ -13,7 +14,7 @@ const Header = () => {
             <div className="navbar bg-base-100">
                 <div className="flex-1">
                     <a className="btn btn-ghost text-xl">
-                        <img src="/src/assets/images/"></img>
+                        <img src="/src/assets/images/Logo.png"></img>
                     </a>
                 </div>
                 <div className="flex-none">
