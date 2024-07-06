@@ -1,0 +1,122 @@
+[
+    {
+        "picture": "path/to/image1.jpg",
+        "title": "Health Item 1",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Clean water for children",
+        "price": "$19.99"
+    },
+    {
+        "picture": "path/to/image2.jpg",
+        "title": "Education Item 1",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "Good education",
+        "price": "$29.99"
+    },
+    {
+        "picture": "path/to/image3.jpg",
+        "title": "Clothing Item 1",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Used Clothing Drive",
+        "price": "$39.99"
+    },
+    {
+        "picture": "path/to/image4.jpg",
+        "title": "Food Item 1",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Better Food for Everyone",
+        "price": "$9.99"
+    },
+    {
+        "picture": "path/to/image5.jpg",
+        "title": "Health Item 2",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Clean water for children",
+        "price": "$24.99"
+    },
+    {
+        "picture": "path/to/image6.jpg",
+        "title": "Education Item 2",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "Good education",
+        "price": "$34.99"
+    },
+    {
+        "picture": "path/to/image7.jpg",
+        "title": "Clothing Item 2",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Used Clothing Drive",
+        "price": "$44.99"
+    },
+    {
+        "picture": "path/to/image8.jpg",
+        "title": "Food Item 2",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Better Food for Everyone",
+        "price": "$14.99"
+    },
+    {
+        "picture": "path/to/image9.jpg",
+        "title": "Health Item 3",
+        "category": "Health",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
+        "card_bg": "rgba(0, 82, 255, 0.15)",
+        "text_color": "#0052FF",
+        "description": "Clean water for children",
+        "price": "$29.99"
+    },
+    {
+        "picture": "path/to/image10.jpg",
+        "title": "Education Item 3",
+        "category": "Education",
+        "category_bg": "rgba(255, 68, 74, 0.20)",
+        "card_bg": "rgba(255, 68, 74, 0.15)",
+        "text_color": "#FF444A",
+        "description": "Good education",
+        "price": "$39.99"
+    },
+    {
+        "picture": "path/to/image11.jpg",
+        "title": "Clothing Item 3",
+        "category": "Clothing",
+        "category_bg": "rgba(121, 194, 63, 0.20)",
+        "card_bg": "rgba(121, 194, 63, 0.15)",
+        "text_color": "#79C23F",
+        "description": "Used Clothing Drive",
+        "price": "$49.99"
+    },
+    {
+        "picture": "path/to/image12.jpg",
+        "title": "Food Item 3",
+        "category": "Food",
+        "category_bg": "rgba(248, 113, 71, 0.20)",
+        "card_bg": "rgba(248, 113, 71, 0.15)",
+        "text_color": "#F87147",
+        "description": "Better Food for Everyone",
+        "price": "$19.99"
+    }
+]
