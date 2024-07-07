@@ -27,7 +27,7 @@ const Header = () => {
                 <h1 className="text-5xl font-bold mb-10">I Grow By Helping People In Need</h1>
                 <div className="join">
                     <input className="input input-bordered join-item" placeholder="Search here....." />
-                    <button className="btn join-item ">Search</button>
+                    <button className="btn join-item text-white bg-error">Search</button>
                 </div>
             </div>
         </div>

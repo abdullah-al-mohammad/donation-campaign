@@ -10,7 +10,7 @@
         "price": "$19.99"
     },
     {
-        "picture": "https://i.ibb.co/k6CGPq7/education.png",
+        "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 1",
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
@@ -20,7 +20,7 @@
         "price": "$29.99"
     },
     {
-        "picture": "https://i.ibb.co/3mk1x0Q/clothing.jpg",
+        "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 1",
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
@@ -30,7 +30,7 @@
         "price": "$39.99"
     },
     {
-        "picture": "path/to/image4.jpg",
+        "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 1",
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
@@ -50,7 +50,7 @@
         "price": "$24.99"
     },
     {
-        "picture": "https://i.ibb.co/k6CGPq7/education.png",
+        "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 2",
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
@@ -60,7 +60,7 @@
         "price": "$34.99"
     },
     {
-        "picture": "https://i.ibb.co/3mk1x0Q/clothing.jpg",
+        "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 2",
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
@@ -70,7 +70,7 @@
         "price": "$44.99"
     },
     {
-        "picture": "path/to/image8.jpg",
+        "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 2",
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
@@ -90,7 +90,7 @@
         "price": "$29.99"
     },
     {
-        "picture": "https://i.ibb.co/k6CGPq7/education.png",
+        "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 3",
         "category": "Education",
         "category_bg": "rgba(255, 68, 74, 0.20)",
@@ -100,7 +100,7 @@
         "price": "$39.99"
     },
     {
-        "picture": "https://i.ibb.co/3mk1x0Q/clothing.jpg",
+        "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 3",
         "category": "Clothing",
         "category_bg": "rgba(121, 194, 63, 0.20)",
@@ -110,7 +110,7 @@
         "price": "$49.99"
     },
     {
-        "picture": "path/to/image12.jpg",
+        "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 3",
         "category": "Food",
         "category_bg": "rgba(248, 113, 71, 0.20)",
