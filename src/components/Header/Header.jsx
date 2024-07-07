@@ -10,7 +10,7 @@ const Header = () => {
 
     </>
     return (
-        <div className="bgImg">
+        <div className="bgImg mb-24">
             <div className="navbar">
                 <div className="flex-1">
                     <NavLink className="btn btn-ghost text-xl">
