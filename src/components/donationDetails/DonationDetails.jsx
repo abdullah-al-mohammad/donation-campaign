@@ -9,18 +9,17 @@ const DonationDetails = () => {
     if (!donation) {
         return <div>Loading...</div>;
     }
-    const { category, description, picture, details, category_bg, text_color } = donation;
+    const { category, description, picture, details, category_bg, text_color,price } = donation;
     // const donation = donations.find(donation => donation.id === id)
     console.log(donation);
     return (
         <div>
             <h1>donation Details</h1>
-            <div
-                className="hero min-h-screen"
-                style={{
-                    backgroundImage: "url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg)",
-                }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className="hero min-h-screen">
+                <div className="hero-overlay bg-opacity-60">
+                    <img src={picture} alt="" />
+                    <button className="btn btn-error text-white">Donate {price}</button>
+                </div>
                 <div className="hero-content text-neutral-content text-center">
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
