@@ -2,7 +2,11 @@ import { useLoaderData } from "react-router-dom";
 
 
 const Home = () => {
-    const donations = useLoaderData([])
+    const donations = useLoaderData([]);
+
+    const handleDetails = ()=>{
+        console.log('hello');
+    }
 
     return (
         <div>
@@ -10,18 +14,15 @@ const Home = () => {
                 {donations.map((donation, idx) => {
                     const {category,category_bg, description, picture, text_color, card_bg} = donation;
                     return (
-                        <div key={idx} className={`card card-compact bg-base-100 shadow-xl ${card_bg}`}>
+                        <div key={idx} className={`card card-compact bg-base-100 shadow-xl ${card_bg}`} onClick={handleDetails}>
                             <div>
                                 <img className="w-full object-container"
                                     src={picture}
                                     alt="Shoes" />
                             </div>
-                            <div>
+                            <div className="p-4">
                                 <button className= {`btn ${category_bg} ${text_color}`}>{category}</button>
-                                <h2 className="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                                <div className="card-actions justify-end">
-                                </div>
+                                <h2 className="card-title">{description}</h2>
                             </div>
                         </div>
                     )
