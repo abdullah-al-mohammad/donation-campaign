@@ -1,20 +1,23 @@
-import { useLoaderData } from "react-router-dom";
+import { useLoaderData, useNavigate } from "react-router-dom";
 
 
 const Home = () => {
-    const donations = useLoaderData([]);
+    const donations = useLoaderData();
+    // console.log(donations);
+    const  navigate = useNavigate()
 
-    const handleDetails = ()=>{
-        console.log('hello');
-    }
+   
 
     return (
         <div>
             <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
                 {donations.map((donation, idx) => {
-                    const {category,category_bg, description, picture, text_color, card_bg} = donation;
+                    const {id,category,category_bg, description, picture, text_color, card_bg} = donation;
+                    const handleDonationDetails = (id)=>{
+                        navigate(`/donat/${id}`)
+                    }
                     return (
-                        <div key={idx} className={`card card-compact bg-base-100 shadow-xl ${card_bg}`} onClick={handleDetails}>
+                        <div onClick={()=>handleDonationDetails(id)} key={idx} className={`card card-compact bg-base-100 shadow-xl ${card_bg}`}>
                             <div>
                                 <img className="w-full object-container"
                                     src={picture}
@@ -28,7 +31,6 @@ const Home = () => {
                     )
                 }
                 )}
-                <h3>{donations.length}</h3>
 
             </div>
         </div>

@@ -1,15 +1,17 @@
 [
     {
+        "id": 1,
         "picture": "https://i.postimg.cc/J4D4mZ7H/Health.png",
         "title": "Health Item 1",
         "category": "Health",
-        "category_bg": "0052FF)",
+        "category_bg": "rgba(0, 82, 255, 0.20)",
         "card_bg": "rgba(0, 82, 255, 0.15)",
         "text_color": "#0052FF",
         "description": "Clean water for children",
         "price": "$19.99"
     },
     {
+        "id": 2,
         "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 1",
         "category": "Education",
@@ -20,6 +22,7 @@
         "price": "$29.99"
     },
     {
+        "id": 3,
         "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 1",
         "category": "Clothing",
@@ -30,6 +33,7 @@
         "price": "$39.99"
     },
     {
+        "id": 4,
         "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 1",
         "category": "Food",
@@ -40,6 +44,7 @@
         "price": "$9.99"
     },
     {
+        "id": 5,
         "picture": "https://i.postimg.cc/J4D4mZ7H/Health.png",
         "title": "Health Item 2",
         "category": "Health",
@@ -50,6 +55,7 @@
         "price": "$24.99"
     },
     {
+        "id": 6,
         "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 2",
         "category": "Education",
@@ -60,6 +66,7 @@
         "price": "$34.99"
     },
     {
+        "id": 7,
         "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 2",
         "category": "Clothing",
@@ -70,6 +77,7 @@
         "price": "$44.99"
     },
     {
+        "id": 8,
         "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 2",
         "category": "Food",
@@ -80,6 +88,7 @@
         "price": "$14.99"
     },
     {
+        "id": 9,
         "picture": "https://i.postimg.cc/J4D4mZ7H/Health.png",
         "title": "Health Item 3",
         "category": "Health",
@@ -90,6 +99,7 @@
         "price": "$29.99"
     },
     {
+        "id": 10,
         "picture": "https://i.postimg.cc/500B1qYW/Education.png",
         "title": "Education Item 3",
         "category": "Education",
@@ -100,6 +110,7 @@
         "price": "$39.99"
     },
     {
+        "id": 11,
         "picture": "https://i.postimg.cc/gkw9H5Zw/Clothing.png",
         "title": "Clothing Item 3",
         "category": "Clothing",
@@ -110,6 +121,7 @@
         "price": "$49.99"
     },
     {
+        "id": 12,
         "picture": "https://i.postimg.cc/3wrS4G4n/Food.png",
         "title": "Food Item 3",
         "category": "Food",
