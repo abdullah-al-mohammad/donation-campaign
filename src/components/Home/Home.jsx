@@ -3,7 +3,6 @@ import { useLoaderData, useNavigate } from "react-router-dom";
 
 const Home = () => {
     const donations = useLoaderData();
-    // console.log(donations);
     const  navigate = useNavigate()
 
    
@@ -14,7 +13,7 @@ const Home = () => {
                 {donations.map((donation, idx) => {
                     const {id,category,category_bg, description, picture, text_color, card_bg} = donation;
                     const handleDonationDetails = (id)=>{
-                        navigate(`/donat/${id}`)
+                        navigate(`/donate/${id}`)
                     }
                     return (
                         <div onClick={()=>handleDonationDetails(id)} key={idx} className={`card card-compact bg-base-100 shadow-xl ${card_bg}`}>
