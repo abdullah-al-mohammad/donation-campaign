@@ -8,7 +8,7 @@ const Home = () => {
    
 
     return (
-        <div>
+        <div className="container mx-auto">
             <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
                 {donations.map((donation, idx) => {
                     const {id,category,category_bg, description, picture, text_color, card_bg} = donation;

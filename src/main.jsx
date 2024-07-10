@@ -11,6 +11,7 @@ import Home from './components/Home/Home';
 import DonationDetails from './components/donationDetails/DonationDetails';
 import Donation from './components/Donation/Donation';
 import Statistics from './components/Statistics/Statistics';
+
 const router = createBrowserRouter([
   {
     path: '/',

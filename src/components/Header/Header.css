@@ -1,9 +1,13 @@
-.menu li > *:not(ul, .menu-title, details, .btn):active, .menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active {
+.menu li>*:not(ul, .menu-title, details, .btn):active,
+.menu li>*:not(ul, .menu-title, details, .btn).active,
+.menu li>details>summary:active {
     background-color: transparent;
     text-decoration: underline;
     color: red;
 }
-.bgImg{
-    background: white url("../../assets/images/Rectangle 4281.png") no-repeat center center / cover;
-    height: 540px;
+
+.bgImg {
+    min-height: 540px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('../../assets/images/Rectangle 4281.png');
+    background-size: cover;
 }
