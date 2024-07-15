@@ -1,5 +1,6 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -23,6 +24,9 @@ const Home = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>donation || Home</title>
+            </Helmet>
             <div className="bgImg mb-24">
                 <div className="text-center absolute inset-48">
                     <h1 className="text-5xl font-bold mb-10">I Grow By Helping People In Need</h1>

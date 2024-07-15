@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getStoredDonation } from "../../utility/localStorage";
+import { Helmet } from "react-helmet-async";
 
 
 const Donation = () => {
@@ -26,10 +27,13 @@ const Donation = () => {
     }, [])
     return (
         <div className="mt-32">
+            <Helmet>
+                <title>Donation</title>
+            </Helmet>
             <div className="grid grid-cols-2 gap-5">
                 {
                     appliedDonations.slice(0, dataLength).map((donate, idx) => {
-                        const { picture, category, description, price, text_color, card_bg } = donate
+                        const { picture, category, description, price, text_color, card_bg, category_bg } = donate
                         return (
                             <div key={idx} >
                                 <div className="card card-side bg-base-100 shadow-xl rounded" style={{backgroundColor: `${card_bg}`}}>
@@ -37,11 +41,11 @@ const Donation = () => {
                                         src={picture}
                                         alt="Movie" />
                                     <div className="card-body p-6">
-                                        <h3 className="card-title" style={{color: `${text_color}`}}>{category}</h3>
+                                        <span className="px-3 py-2 w-20 rounded" style={{color: `${text_color}`, backgroundColor: `${category_bg}`}}>{category}</span>
                                         <h2 className="text-2xl font-bold">{description}</h2>
-                                        <p className="font-semibold">{price}</p>
+                                        <p className="font-semibold" style={{color: `${text_color}`}}>{price}</p>
                                         <div className="card-actions">
-                                            <button className={'btn btn-primary font-semibold'} style={{backgroundColor: `${text_color}`}}>View Details</button>
+                                            <button className={'btn btn-primary font-semibold border-0'} style={{backgroundColor: `${text_color}`}}>View Details</button>
                                         </div>
                                     </div>
                                 </div>

@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { toast, ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import { saveDonation } from "../../utility/localStorage";
+import { Helmet } from "react-helmet-async";
 
 
 
@@ -21,6 +22,9 @@ const DonationDetails = () => {
     const {description, picture, price } = donation;
     return (
         <div>
+            <Helmet>
+                <title>Donation || Details</title>
+            </Helmet>
             <h1>donation Details</h1>
             <div>
                 <div className="relative mb-14">

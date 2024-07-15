@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async';
 import { PieChart, Pie, Tooltip, Cell, Legend } from 'recharts';
 
 const dataForDonating = [
@@ -20,6 +21,9 @@ const COLORS_NOT_DONATING = ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'];
 const PieCharts = () => {
   return (
     <div className='flex justify-center align-middle mt-32'>
+      <Helmet>
+        <title>Donation || Statistics</title>
+      </Helmet>
       <h2>Reasons for Donating</h2>
       <PieChart width={400} height={400}>
         <Pie
